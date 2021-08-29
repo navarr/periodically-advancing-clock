@@ -6,5 +6,8 @@
     },
     "phpUnit": {
         "configDir": "."
+    },
+    "mutators": {
+        "@default": true
     }
 }
