@@ -5,6 +5,7 @@
 [![License](http://poser.pugx.org/navarr/periodically-advancing-clock/license)](https://packagist.org/packages/navarr/periodically-advancing-clock)  
 ![Tests](https://github.com/navarr/periodically-advancing-clock/actions/workflows/commit.yml/badge.svg)
 ![Code Coverage](https://codecov.io/gh/navarr/periodically-advancing-clock/branch/main/graph/badge.svg?token=BHTKOZZDR3)
+[![Mutation score](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fnavarr%2Fperiodically-advancing-clock%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/navarr/periodically-advancing-clock/main)
 
 This is an implementation of PSR-20 that provides a clock that advances one defined period with each call of `->now()`
 
