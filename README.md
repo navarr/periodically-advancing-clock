@@ -11,7 +11,7 @@ This is an implementation of PSR-20 that provides a clock that advances one defi
 
 ## Installation
 
-    composer require navarr/periodically-advancing-clock:@dev
+    composer require navarr/periodically-advancing-clock:^1
 
 ## Usage
 
