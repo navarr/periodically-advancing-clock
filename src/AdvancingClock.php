@@ -17,7 +17,7 @@ class AdvancingClock implements ClockInterface
 {
     private DateTimeImmutable $date;
 
-    public function __construct(private DateInterval $period, DateTimeImmutable $startDate = null)
+    public function __construct(private DateInterval $period, ?DateTimeImmutable $startDate = null)
     {
         $this->date = $startDate ?? new DateTimeImmutable('now');
     }
