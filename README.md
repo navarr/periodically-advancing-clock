@@ -24,7 +24,7 @@ use Navarr\PeriodicAdvancement\AdvancingClock;
 
 $date = new DateTimeImmutable('2021-02-20');
 $period = new DateInterval('P1M');
-$clock = new SpecificTime(startDate: $date, period: $period);
+$clock = new AdvancingClock(startDate: $date, period: $period);
 
 // 2021-02-20
 echo $clock->now()->format('Y-m-d');
